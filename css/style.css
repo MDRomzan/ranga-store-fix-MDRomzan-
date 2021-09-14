@@ -2,6 +2,14 @@ body {
   overflow-x: hidden;
   font-family: "Montserrat", sans-serif;
 }
+.header-color{
+  color:rgb(204, 245, 20);
+}
+.div-design{
+  border-radius: 5px;
+  background-color: whitesmoke;
+  box-shadow: 1px 0 0 whitesmoke;
+}
 .search-field {
   border: none;
   border-radius: 50px;
@@ -31,6 +39,7 @@ body {
   padding: 10px 50px;
   border-radius: 25px;
   margin-left: 50px;
+  color:darkgray;
 }
 #all-products {
   display: grid;
@@ -58,12 +67,14 @@ body {
 }
 .cart {
   width: 350px;
-  /* border: 1px solid green; */
+  border: 1px solid rgb(159, 214, 159); 
   padding: 10px;
   box-shadow: 10px 10px 20px gray;
-  border-radius: 5px;
+  border-radius: 15px;
   margin-right: 30px;
   position: fixed;
+  background-color:cornsilk;
+
 }
 .cart-main {
   padding-right: 30px;
